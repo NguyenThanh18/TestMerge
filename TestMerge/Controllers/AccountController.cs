@@ -11,6 +11,9 @@ namespace TestMerge.Controllers
         // GET: Account
         public ActionResult Index()
         {
+            int a = 0;
+            int b = 1;
+            int c = a + b;
             return View();
         }
     }
